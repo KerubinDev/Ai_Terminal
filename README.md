@@ -1,107 +1,125 @@
-# Kerubin - Assistente Virtual Inteligente
+# 🌐 **Kerubin - Assistente Virtual Inteligente**
 
-[![License](https://img.shields.io/github/license/KerubinDev/kerubin)](LICENSE)  
-[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-
-### Índice
-
-- [Visão Geral](#visão-geral)
-- [Arquitetura do Sistema](#arquitetura-do-sistema)
-- [Principais Funcionalidades](#principais-funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação e Configuração](#instalação-e-configuração)
-- [Recursos Avançados](#recursos-avançados)
-- [Requisitos do Sistema](#requisitos-do-sistema)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
+### **Visão Geral**
+Kerubin é um assistente virtual de código aberto desenvolvido em Python, utilizando modelos avançados de linguagem para fornecer respostas contextuais e interativas. Com uma interface gráfica moderna e intuitiva, construída com PyQt6, o Kerubin se destaca pela eficiência e acessibilidade.
 
 ---
 
-## Visão Geral
+## 🛠️ **Arquitetura do Sistema**
 
-**Kerubin** é um assistente virtual de código aberto, desenvolvido em Python, com uma interface gráfica moderna e intuitiva construída com PyQt6. Ele utiliza processamento de linguagem natural (NLP) e memória contextual para fornecer respostas dinâmicas e personalizadas. Este programa é ideal para suporte em várias áreas, como análise de dados, processamento de texto e assistência em programação.
+1. **🖥️ Interface do Usuário** (`src/interface/janela_principal.py`)
+   - Tema escuro para conforto visual 👓
+   - Barra lateral retrátil para navegação simplificada
+   - Editor de texto com suporte a markdown 📝
+   - Histórico de conversas com formatação HTML
 
-## Arquitetura do Sistema
+2. **🧠 Núcleo do Assistente** (`src/assistente/chat_ia.py`)
+   - Processamento assíncrono para alta performance 🔄
+   - Análise de sentimento e extração de entidades
+   - Integração com múltiplos provedores de IA 🔗
+   - Aprendizado contínuo baseado em interações
 
-O Kerubin é organizado em módulos, cada um com funções específicas:
+3. **🗄️ Sistema de Memória** (`cerebro/memoria/memoria_ia.py`)
+   - Gerenciamento de histórico de conversas
+   - Sistema de contexto dinâmico
+   - Formatação com markdown e gráficos ASCII 📊
+   
+4. **📂 Gerenciamento de Sessões** (`src/utils/gerenciador_sessoes.py`)
+   - Organização automática de histórico 🗃️
+   - Backup e recuperação de dados
+   - Limpeza automática de dados antigos
 
-### 1. Interface do Usuário (`src/interface/janela_principal.py`)
-- Interface com tema escuro e barra lateral retrátil para gerenciamento de conversas.
-- Editor de texto com suporte a markdown, permitindo formatação avançada.
-- Configurações personalizáveis para personalizar a experiência do usuário.
+---
 
-### 2. Núcleo do Assistente (`src/assistente/chat_ia.py`)
-- Sistema de processamento assíncrono, com memória de curto e longo prazo.
-- Análise de sentimentos e extração de entidades para respostas mais personalizadas.
-- Aprendizado contínuo baseado em interações passadas.
+## 🚀 **Principais Funcionalidades**
 
-### 3. Sistema de Memória (`cerebro/memoria/memoria_ia.py`)
-- Armazenamento persistente do histórico de conversas, com formatação em markdown.
-- Suporte para gráficos ASCII, diagramas e outros elementos visuais no contexto das respostas.
+1. **🔍 Processamento de Linguagem Natural**
+   - Respostas contextuais ricas, formatadas em markdown.
 
-### 4. Gerenciamento de Sessões (`src/utils/gerenciador_sessoes.py`)
-- Sistema de persistência e organização de histórico de conversas, com backup automático e limpeza de dados antigos.
+2. **🧩 Sistema de Memória Contextual**
+   - Memória persistente para conversas longas e complexas.
 
-## Principais Funcionalidades
+3. **🌈 Interface Gráfica Responsiva**
+   - GUI com barra lateral, editor de markdown, e barra de ferramentas interativa.
 
-### 1. Processamento de Linguagem Natural
-Implementação de um pipeline para análise e resposta baseada em inteligência artificial, com uma arquitetura de resposta e memória contextuais. O sistema realiza o processamento de mensagens, salva logs e atualiza o contexto do usuário de maneira automatizada.
+---
 
-### 2. Sistema de Memória Contextual
-Armazena interações passadas para construir respostas contextuais, enriquecendo as interações com formatação e elementos visuais em markdown, emojis, listas, e gráficos ASCII/Unicode.
+## 💻 **Tecnologias Utilizadas**
 
-### 3. Interface Gráfica Responsiva
-A interface é personalizável, com opções para realizar análise de dados e processamento de texto. Um editor de markdown avançado e histórico de conversa com formatação e backup automático completam a experiência.
+| Tecnologia         | Função                                    |
+|--------------------|-------------------------------------------|
+| **Python 3.11+**   | Linguagem de programação principal        |
+| **PyQt6**          | Criação de Interface Gráfica             |
+| **qasync**         | Processamento assíncrono                 |
+| **markdown2**      | Formatação em markdown                   |
+| **Provedores de IA** | Integração com IA para respostas contextuais |
 
-## Tecnologias Utilizadas
-- **Python 3.11+**
-- **PyQt6**: Interface gráfica moderna e responsiva.
-- **qasync**: Operações assíncronas para respostas em tempo real.
-- **markdown2**: Formatação de respostas e histórico em markdown.
-- Integração com múltiplos provedores de IA para respostas contextualizadas.
+---
 
-## Instalação e Configuração
+## ⚙️ **Instalação e Configuração**
 
-### Pré-requisitos
-- Python 3.11+
-- Sistema operacional: Windows/Linux/MacOS
+### Passo-a-Passo
 
-### Passo a Passo de Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/KerubinDev/kerubin.git
-   cd kerubin
+   git clone https://github.com/seu-usuario/kerubin.git
    ```
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
    ```
-3. Configure o arquivo de configuração `config/kerubin.json` conforme necessário.
+3. Configure o arquivo `config/kerubin.json` conforme necessário.
 4. Execute o programa:
    ```bash
    python main.py
    ```
 
-## Recursos Avançados
+---
 
-### 1. Formatação Rica
-- Suporte a markdown completo, gráficos ASCII/Unicode, diagramas Mermaid, e blocos de código.
-- Emoticons e símbolos para personalizar ainda mais as respostas e o histórico.
+## 💡 **Recursos Avançados**
 
-### 2. Gerenciamento de Conversas
-- Salvamento automático, nomeação inteligente e backup do histórico.
-- Configurações para ajustar parâmetros de IA como modelo, tokens e temperatura.
+1. **📑 Formatação Rica**
+   - Suporte completo a markdown, gráficos ASCII e diagramas Mermaid.
 
-### 3. Personalização de Configurações
-- Parâmetros ajustáveis para resposta, contexto e limite de tokens, adaptáveis de acordo com as necessidades do usuário.
+2. **🔄 Gerenciamento de Conversas**
+   - Salvamento e recuperação automáticos com nomeação inteligente.
 
-## Requisitos do Sistema
-- **Sistema Operacional**: Windows/Linux/MacOS
-- **Memória RAM**: Mínimo de 4GB
-- **Conexão com Internet**
+3. **🛠️ Personalização**
+   - Ajuste de modelos, temperatura e outros parâmetros da IA.
 
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. Para contribuições maiores, por favor, entre em contato e discuta suas ideias antes.
+---
 
-## Licença
-Distribuído sob a Licença Apache 2.0. Veja `LICENSE` para mais informações.
+## 🔮 **Melhorias Futuras e Possibilidades de Expansão**
+
+### 1. 🌐 Expansão da Memória Longa e Curta
+   - **Memória de Contexto Profundo** para recuperação de memórias de longo prazo.
+   - **Ponderação de Contexto** para ajustar a carga de informações conforme a importância.
+
+### 2. 🌍 Suporte a Multilinguagem e Tradução Automática
+   - Módulos para tradução em tempo real e resposta automática em múltiplos idiomas.
+
+### 3. 🎨 Melhoria na Interface Gráfica
+   - Suporte para tema claro e opções de personalização.
+
+### 4. 🔗 Integração com Ferramentas Externas
+   - Conectores para APIs como calendários, CRMs e ferramentas de produtividade.
+
+### 5. 🗣️ Aprimoramento do Processamento de Linguagem Natural
+   - Análise de sentimento avançada e comandos de voz para feedback sonoro.
+
+### 6. 🔒 Segurança e Privacidade
+   - **Criptografia** de conversas e gerenciamento granular de permissões.
+
+### 7. 📊 Ferramentas de Análise e Relatórios
+   - Relatórios personalizados com métricas de interação.
+
+---
+
+## 🤝 **Contribuições**
+
+Contribuições são bem-vindas! Para sugerir melhorias, reporte bugs ou envie pull requests. 
+
+---
+
+## 📝 **Licença**
+Este projeto está sob a licença Apache 2.0. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
