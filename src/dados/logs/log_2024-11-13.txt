@@ -1,0 +1,88 @@
+[20:06:39] Tentando obter resposta com provedor FreeGpt
+[20:06:44] Tentando obter resposta com provedor FreeGpt
+[20:06:53] Tentando obter resposta com provedor FreeGpt
+[20:06:55] Conversa salva em: src/dados/conversas\conversa_20241113_200655.json
+[20:11:31] Tentando obter resposta com provedores disponíveis
+[20:11:35] Resposta obtida com sucesso do provedor: FreeGpt
+[20:11:50] Tentando obter resposta com provedores disponíveis
+[20:11:53] Resposta obtida com sucesso do provedor: FreeGpt
+[20:11:59] Conversa salva em: src/dados/conversas\conversa_20241113_201159.json
+[20:17:26] Tentando obter resposta com provedores disponíveis
+[20:17:30] Resposta obtida com sucesso do provedor: FreeGpt
+[20:17:57] Tentando obter resposta com provedores disponíveis
+[20:18:00] Resposta obtida com sucesso do provedor: FreeGpt
+[20:18:13] Tentando obter resposta com provedores disponíveis
+[20:18:17] Resposta obtida com sucesso do provedor: FreeGpt
+[20:20:20] Conversa salva em: src/dados/conversas\conversa_20241113_202020.json
+[20:23:00] Tentando obter resposta com provedores disponíveis
+[20:23:04] Resposta obtida com sucesso do provedor: FreeGpt
+[20:24:33] Tentando obter resposta com provedores disponíveis
+[20:24:38] Resposta obtida com sucesso do provedor: FreeGpt
+[20:24:58] Tentando obter resposta com provedores disponíveis
+[20:25:03] Resposta obtida com sucesso do provedor: FreeGpt
+[20:25:17] Tentando obter resposta com provedores disponíveis
+[20:25:20] Resposta obtida com sucesso do provedor: FreeGpt
+[20:25:26] Tentando obter resposta com provedores disponíveis
+[20:25:30] Resposta obtida com sucesso do provedor: FreeGpt
+[20:25:52] Tentando obter resposta com provedores disponíveis
+[20:26:02] Resposta obtida com sucesso do provedor: FreeGpt
+[20:26:21] Tentando obter resposta com provedores disponíveis
+[20:26:25] Resposta obtida com sucesso do provedor: FreeGpt
+[20:34:15] Conversa salva em: src/dados/conversas\conversa_20241113_203415.json
+[20:42:34] Conversa salva em: src/dados/conversas\conversa_20241113_204234.json
+[20:47:13] Conversa salva em: src/dados/conversas\conversa_20241113_204713.json
+[20:47:38] Conversa salva em: src/dados/conversas\conversa_20241113_204738.json
+[20:49:23] Conversa salva em: src/dados/conversas\conversa_20241113_204923.json
+[20:53:33] Conversa salva em: src/dados/conversas\conversa_20241113_205333.json
+[20:54:01] Conversa salva em: src/dados/conversas\conversa_20241113_205401.json
+[20:54:04] Conversa salva em: src/dados/conversas\conversa_20241113_205404.json
+[20:54:08] Conversa salva em: src/dados/conversas\conversa_20241113_205408.json
+[20:54:10] Conversa salva em: src/dados/conversas\conversa_20241113_205410.json
+[20:54:14] Conversa salva em: src/dados/conversas\conversa_20241113_205414.json
+[20:54:17] Conversa salva em: src/dados/conversas\conversa_20241113_205417.json
+[20:54:20] Conversa salva em: src/dados/conversas\conversa_20241113_205420.json
+[20:54:23] Conversa salva em: src/dados/conversas\conversa_20241113_205423.json
+[20:54:26] Conversa salva em: src/dados/conversas\conversa_20241113_205426.json
+[20:54:28] Conversa salva em: src/dados/conversas\conversa_20241113_205428.json
+[20:54:31] Conversa salva em: src/dados/conversas\conversa_20241113_205431.json
+[20:54:35] Conversa salva em: src/dados/conversas\conversa_20241113_205435.json
+[20:54:40] Conversa salva em: src/dados/conversas\conversa_20241113_205440.json
+[20:58:20] Conversa salva em: src/dados/conversas\conversa_20241113_205820.json
+[21:03:04] Conversa salva em: src/dados/conversas\conversa_20241113_210304.json
+[21:03:48] Conversa salva em: src/dados/conversas\conversa_20241113_210348.json
+[21:03:51] Conversa salva em: src/dados/conversas\conversa_20241113_210351.json
+[21:03:54] Conversa salva em: src/dados/conversas\conversa_20241113_210354.json
+[21:03:56] Conversa salva em: src/dados/conversas\conversa_20241113_210356.json
+[21:03:59] Conversa salva em: src/dados/conversas\conversa_20241113_210359.json
+[21:07:48] Erro ao processar mensagem: GerenciadorConversas.adicionar_mensagem() takes 3 positional arguments but 4 were given
+[21:07:57] Erro ao processar mensagem: GerenciadorConversas.adicionar_mensagem() takes 3 positional arguments but 4 were given
+[21:10:08] Nova conversa iniciada: 20241113_211008
+[21:10:08] Processando mensagem na conversa 20241113_211008
+[21:10:13] Erro ao processar mensagem: 'str' object has no attribute 'sucesso'
+[21:10:19] Processando mensagem na conversa 20241113_211008
+[21:10:22] Erro ao processar mensagem: 'str' object has no attribute 'sucesso'
+[21:10:29] Processando mensagem na conversa 20241113_211008
+[21:10:33] Erro ao processar mensagem: 'str' object has no attribute 'sucesso'
+[21:10:39] Erro ao salvar conversa: GerenciadorConversas.salvar_conversa() takes 1 positional argument but 2 were given
+[21:11:49] Nova conversa iniciada: 20241113_211149
+[21:11:49] Processando mensagem na conversa 20241113_211149
+[21:11:49] Erro ao processar mensagem: module 'g4f.Provider' has no attribute 'DeepAi'
+[21:11:57] Processando mensagem na conversa 20241113_211149
+[21:11:57] Erro ao processar mensagem: module 'g4f.Provider' has no attribute 'DeepAi'
+[21:12:59] Erro ao salvar conversa: GerenciadorConversas.salvar_conversa() takes 1 positional argument but 2 were given
+[21:14:02] Nova conversa iniciada: 20241113_211402
+[21:14:02] Processando mensagem na conversa 20241113_211402
+[21:14:02] Tentando obter resposta com provedor: FreeGpt
+[21:14:06] Resposta obtida com sucesso do provedor: FreeGpt
+[21:14:06] Erro ao processar mensagem: 'str' object has no attribute 'sucesso'
+[21:14:21] Erro ao salvar conversa: GerenciadorConversas.salvar_conversa() takes 1 positional argument but 2 were given
+[21:15:45] Nova conversa iniciada: 20241113_211545
+[21:15:45] Processando mensagem na conversa 20241113_211545
+[21:15:45] Tentando obter resposta com provedor: FreeGpt
+[21:15:49] Resposta obtida com sucesso do provedor: FreeGpt
+[21:16:15] Processando mensagem na conversa 20241113_211545
+[21:16:15] Tentando obter resposta com provedor: FreeGpt
+[21:16:18] Resposta obtida com sucesso do provedor: FreeGpt
+[21:16:33] Processando mensagem na conversa 20241113_211545
+[21:16:33] Tentando obter resposta com provedor: FreeGpt
+[21:16:36] Resposta obtida com sucesso do provedor: FreeGpt

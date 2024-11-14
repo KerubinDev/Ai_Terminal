@@ -1,0 +1,126 @@
+[00:00:15] Tentando obter resposta com provedor FreeGpt
+[00:02:05] Tentando obter resposta com provedor FreeGpt
+[17:45:33] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[17:45:41] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[17:45:44] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[17:45:47] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[17:48:29] Tentando obter resposta com provedor FreeGpt
+[17:48:29] Erro ao salvar conversa: string indices must be integers, not 'str'
+[17:48:29] Erro no processamento avançado: 'ChatIA' object has no attribute '_atualizar_preferencias_sentimento'
+[17:48:35] Tentando obter resposta com provedor FreeGpt
+[17:48:35] Erro ao salvar conversa: string indices must be integers, not 'str'
+[17:48:35] Erro no processamento avançado: 'ChatIA' object has no attribute '_atualizar_preferencias_sentimento'
+[17:48:42] Tentando obter resposta com provedor FreeGpt
+[17:48:42] Erro ao salvar conversa: string indices must be integers, not 'str'
+[17:48:42] Erro no processamento avançado: 'ChatIA' object has no attribute '_atualizar_preferencias_sentimento'
+[17:48:44] Tentando obter resposta com provedor FreeGpt
+[17:48:44] Erro ao salvar conversa: string indices must be integers, not 'str'
+[17:48:44] Erro no processamento avançado: 'ChatIA' object has no attribute '_atualizar_preferencias_sentimento'
+[17:53:14] Erro ao salvar conversa: 'role'
+[17:53:14] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[17:53:25] Erro ao salvar conversa: 'role'
+[17:53:25] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[17:53:32] Erro ao salvar conversa: 'role'
+[17:53:32] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[17:53:37] Erro ao salvar conversa: 'role'
+[17:53:37] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[17:56:00] Erro ao processar mensagem: 'ChatIA' object has no attribute '_processar_saudacao'
+[17:56:05] Erro ao processar mensagem: 'ChatIA' object has no attribute '_processar_saudacao'
+[17:56:19] Erro ao processar mensagem: 'NoneType' object has no attribute 'get'
+[17:58:50] Tentando obter resposta com provedor FreeGpt
+[17:58:55] Erro ao salvar conversa: 'role'
+[17:58:55] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[17:59:10] Tentando obter resposta com provedor FreeGpt
+[17:59:14] Erro ao salvar conversa: 'role'
+[17:59:14] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[18:00:29] Tentando obter resposta com provedor FreeGpt
+[18:00:34] Erro ao salvar conversa: 'role'
+[18:00:34] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[18:00:42] Tentando obter resposta com provedor FreeGpt
+[18:00:46] Erro ao salvar conversa: 'role'
+[18:00:46] Erro ao atualizar perfil: 'NoneType' object is not subscriptable
+[18:02:12] Tentando obter resposta com provedor FreeGpt
+[18:02:16] Erro ao salvar conversa: 'role'
+[18:02:53] Tentando obter resposta com provedor FreeGpt
+[18:02:57] Erro ao salvar conversa: 'role'
+[18:03:11] Tentando obter resposta com provedor FreeGpt
+[18:03:15] Erro ao salvar conversa: 'role'
+[18:03:33] Tentando obter resposta com provedor FreeGpt
+[18:03:36] Erro ao salvar conversa: 'role'
+[18:04:58] Tentando obter resposta com provedor FreeGpt
+[18:05:03] Erro ao salvar conversa: 'role'
+[18:05:10] Tentando obter resposta com provedor FreeGpt
+[18:05:15] Erro ao salvar conversa: 'role'
+[18:05:21] Tentando obter resposta com provedor FreeGpt
+[18:05:25] Erro ao salvar conversa: 'role'
+[18:05:33] Tentando obter resposta com provedor FreeGpt
+[18:05:36] Erro ao salvar conversa: 'role'
+[18:05:47] Tentando obter resposta com provedor FreeGpt
+[18:05:51] Erro ao salvar conversa: 'role'
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180336.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180315.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180257.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180216.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180046.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_180034.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175914.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175855.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175337.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175332.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175325.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_175314.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_174844.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_174842.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_174835.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241112_174829.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241111_220022.txt
+[18:10:11] Conversa antiga removida: cerebro\conversas\conversa_20241111_215516.txt
+[18:10:24] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[18:10:30] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[18:10:35] Erro ao processar mensagem: 'ChatIA' object has no attribute '_obter_resposta_ia'
+[18:12:36] Tentando obter resposta com provedor FreeGpt
+[18:12:40] Erro ao salvar conversa: 'role'
+[18:21:41] Tentando obter resposta com provedor FreeGpt
+[18:21:46] Erro ao salvar conversa: 'role'
+[18:28:54] Conversa antiga removida: cerebro\conversas\conversa_20241112_180515.txt
+[18:28:54] Conversa antiga removida: cerebro\conversas\conversa_20241112_180503.txt
+[18:30:03] Tentando obter resposta com provedor FreeGpt
+[18:30:07] Erro ao salvar conversa: 'role'
+[18:30:46] Tentando obter resposta com provedor FreeGpt
+[18:30:51] Erro ao salvar conversa: 'role'
+[18:31:25] Tentando obter resposta com provedor FreeGpt
+[18:31:30] Erro ao salvar conversa: 'role'
+[18:31:55] Tentando obter resposta com provedor FreeGpt
+[18:31:59] Erro ao salvar conversa: 'role'
+[18:32:18] Tentando obter resposta com provedor FreeGpt
+[18:32:21] Erro ao salvar conversa: 'role'
+[18:35:00] Conversa antiga removida: cerebro\conversas\conversa_20241112_182146.txt
+[18:35:00] Conversa antiga removida: cerebro\conversas\conversa_20241112_181240.txt
+[18:35:00] Conversa antiga removida: cerebro\conversas\conversa_20241112_180551.txt
+[18:35:00] Conversa antiga removida: cerebro\conversas\conversa_20241112_180536.txt
+[18:35:00] Conversa antiga removida: cerebro\conversas\conversa_20241112_180525.txt
+[18:35:08] Tentando obter resposta com provedor FreeGpt
+[18:35:12] Erro ao salvar conversa: 'role'
+[18:35:17] Tentando obter resposta com provedor FreeGpt
+[18:35:20] Erro ao salvar conversa: 'role'
+[18:35:29] Tentando obter resposta com provedor FreeGpt
+[18:35:33] Erro ao salvar conversa: 'role'
+[18:37:14] Conversa antiga removida: cerebro\conversas\conversa_20241112_183130.txt
+[18:37:14] Conversa antiga removida: cerebro\conversas\conversa_20241112_183051.txt
+[18:37:14] Conversa antiga removida: cerebro\conversas\conversa_20241112_183007.txt
+[18:37:18] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:18] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:18] Tentando obter resposta com provedor FreeGpt
+[18:37:22] Erro ao salvar conversa: 'role'
+[18:37:22] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:35] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:35] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:35] Tentando obter resposta com provedor FreeGpt
+[18:37:38] Erro ao salvar conversa: 'role'
+[18:37:38] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:45] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:45] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:45] Tentando obter resposta com provedor FreeGpt
+[18:37:50] Erro ao salvar conversa: 'role'
+[18:37:50] Erro ao adicionar mensagem: 'ChatInterface' object has no attribute 'ESTILOS'
+[18:37:53] Conversa salva com sucesso
