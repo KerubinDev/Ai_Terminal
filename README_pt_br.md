@@ -124,5 +124,3 @@ Siga este guia simples:
    Dev2-->Comunidade;
    ```
 
-Com essas mudanças, a documentação combina **interatividade**, **visual inovador** e um **design cativante** que diferencia o Kerubin no GitHub. O que acha dessa abordagem?
-
