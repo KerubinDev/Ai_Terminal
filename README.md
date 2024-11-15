@@ -1,125 +1,129 @@
-# 🌐 **Kerubin - Assistente Virtual Inteligente**
+# 🌌 **Kerubin - Intelligent Virtual Assistant**
 
-### **Visão Geral**
-Kerubin é um assistente virtual de código aberto desenvolvido em Python, utilizando modelos avançados de linguagem para fornecer respostas contextuais e interativas. Com uma interface gráfica moderna e intuitiva, construída com PyQt6, o Kerubin se destaca pela eficiência e acessibilidade.
+![Português](README_pt_br.md)
 
----
-
-## 🛠️ **Arquitetura do Sistema**
-
-1. **🖥️ Interface do Usuário** (`src/interface/janela_principal.py`)
-   - Tema escuro para conforto visual 👓
-   - Barra lateral retrátil para navegação simplificada
-   - Editor de texto com suporte a markdown 📝
-   - Histórico de conversas com formatação HTML
-
-2. **🧠 Núcleo do Assistente** (`src/assistente/chat_ia.py`)
-   - Processamento assíncrono para alta performance 🔄
-   - Análise de sentimento e extração de entidades
-   - Integração com múltiplos provedores de IA 🔗
-   - Aprendizado contínuo baseado em interações
-
-3. **🗄️ Sistema de Memória** (`cerebro/memoria/memoria_ia.py`)
-   - Gerenciamento de histórico de conversas
-   - Sistema de contexto dinâmico
-   - Formatação com markdown e gráficos ASCII 📊
-   
-4. **📂 Gerenciamento de Sessões** (`src/utils/gerenciador_sessoes.py`)
-   - Organização automática de histórico 🗃️
-   - Backup e recuperação de dados
-   - Limpeza automática de dados antigos
+> 💬 **"Transforming common interactions into extraordinary experiences!"**
 
 ---
 
-## 🚀 **Principais Funcionalidades**
+## 🎨 **Visual Highlights**
 
-1. **🔍 Processamento de Linguagem Natural**
-   - Respostas contextuais ricas, formatadas em markdown.
-
-2. **🧩 Sistema de Memória Contextual**
-   - Memória persistente para conversas longas e complexas.
-
-3. **🌈 Interface Gráfica Responsiva**
-   - GUI com barra lateral, editor de markdown, e barra de ferramentas interativa.
+1. **Dynamic Visualization**:  
+   - Interactive previews with short videos or GIFs showcasing key features.  
+2. **Modular Components**:  
+   - Collapsible sections to explore technical details only when needed.  
+3. **Custom Graphics**:  
+   - Embedded Mermaid.js diagrams.  
 
 ---
 
-## 💻 **Tecnologias Utilizadas**
+## 📌 **Overview**
 
-| Tecnologia         | Função                                    |
-|--------------------|-------------------------------------------|
-| **Python 3.11+**   | Linguagem de programação principal        |
-| **PyQt6**          | Criação de Interface Gráfica             |
-| **qasync**         | Processamento assíncrono                 |
-| **markdown2**      | Formatação em markdown                   |
-| **Provedores de IA** | Integração com IA para respostas contextuais |
+**Kerubin AI** is an open-source virtual assistant combining **cutting-edge AI technology** with an elegant graphical interface. Designed to cater to multiple scenarios, it is:  
+- **Contextual**: Offers personalized responses with persistent memory.  
+- **Efficient**: Asynchronous support for optimized performance.  
+- **Customizable**: Adaptable to user needs.  
 
 ---
 
-## ⚙️ **Instalação e Configuração**
+## 🗺️ **Navigation**
 
-### Passo-a-Passo
+| 🌟 Section                        | 📖 Description                                 |
+|-----------------------------------|-----------------------------------------------|
+| [🛠 Architecture](#-architecture) | Project structure and main modules            |
+| [🚀 Features](#-features)         | Unique resources and differentials            |
+| [💻 Technologies](#-technologies) | Tools and libraries used                      |
+| [⚙️ Installation](#️-installation)| Step-by-step guide to running the project     |
+| [📈 Expansions](#-future-improvements)| Ideas for enhancements                     |
+| [👥 Contributors](#-contributors) | Who helped build this project                 |
+| [📜 License](#-license)           | License details                               |
 
-1. Clone o repositório:
+---
+
+## 🛠 **Architecture**
+
+### 🔹 **User Interface**  
+- Responsive sidebar.  
+- **Embedded Markdown Editor** with graphics support.  
+
+### 🔹 **Language Processing**  
+- Integration with modern APIs, multilingual support.  
+
+### 🔹 **Data Management**  
+- Real-time history, automatic backup.  
+
+> 💡 Check the diagram below to understand the system flow:  
+
+```mermaid
+flowchart TD
+    User -->|Input| Kerubin
+    Kerubin -->|Processing| AI
+    AI -->|Response| User
+```
+
+---
+
+## 🚀 **Features**
+
+### 🔥 **Why is Kerubin different?**
+- **🔍 Contextual Search**: Provides detailed responses adapted to history.  
+- **🎨 Customizable Design**: Toggle between dark/light themes.  
+- **📊 Dynamic Visualizations**: ASCII graphics and real-time statistics.  
+
+---
+
+## 💻 **Technologies Used**
+
+![Tech Stack](https://skillicons.dev/icons?i=python,qt,markdown,vscode)
+
+---
+
+## ⚙️ **Installation**
+
+Follow this simple guide:
+
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/seu-usuario/kerubin.git
+   git clone https://github.com/your-username/kerubin.git
    ```
-2. Instale as dependências:
+2. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
-3. Configure o arquivo `config/kerubin.json` conforme necessário.
-4. Execute o programa:
+3. Configure your `.env` file.  
+
+4. Run the program:  
    ```bash
    python main.py
    ```
 
 ---
 
-## 💡 **Recursos Avançados**
+## 📈 **Future Improvements**
 
-1. **📑 Formatação Rica**
-   - Suporte completo a markdown, gráficos ASCII e diagramas Mermaid.
-
-2. **🔄 Gerenciamento de Conversas**
-   - Salvamento e recuperação automáticos com nomeação inteligente.
-
-3. **🛠️ Personalização**
-   - Ajuste de modelos, temperatura e outros parâmetros da IA.
+1. **🛠 Extensibility**: Add plugins for task automation.  
+2. **🗣 Voice Recognition**: Control with voice commands.  
+3. **📡 Open API**: Allow integration with third-party systems.  
 
 ---
 
-## 🔮 **Melhorias Futuras e Possibilidades de Expansão**
+## 🤝 **Contributors**
 
-### 1. 🌐 Expansão da Memória Longa e Curta
-   - **Memória de Contexto Profundo** para recuperação de memórias de longo prazo.
-   - **Ponderação de Contexto** para ajustar a carga de informações conforme a importância.
-
-### 2. 🌍 Suporte a Multilinguagem e Tradução Automática
-   - Módulos para tradução em tempo real e resposta automática em múltiplos idiomas.
-
-### 3. 🎨 Melhoria na Interface Gráfica
-   - Suporte para tema claro e opções de personalização.
-
-### 4. 🔗 Integração com Ferramentas Externas
-   - Conectores para APIs como calendários, CRMs e ferramentas de produtividade.
-
-### 5. 🗣️ Aprimoramento do Processamento de Linguagem Natural
-   - Análise de sentimento avançada e comandos de voz para feedback sonoro.
-
-### 6. 🔒 Segurança e Privacidade
-   - **Criptografia** de conversas e gerenciamento granular de permissões.
-
-### 7. 📊 Ferramentas de Análise e Relatórios
-   - Relatórios personalizados com métricas de interação.
+[![Contributors](https://contrib.rocks/image?repo=your-username/kerubin)](https://github.com/your-username/kerubin/graphs/contributors)
 
 ---
 
-## 🤝 **Contribuições**
+## 🎨 **Innovative Extras**
 
-Contribuições são bem-vindas! Para sugerir melhorias, reporte bugs ou envie pull requests. 
+1. **Exclusive Badges**  
+   ![Status](https://img.shields.io/badge/Status-Stable-green) ![Contributions](https://img.shields.io/badge/Contributions-Open-blue)  
 
----
+2. **Collaboration Map**  
+   ```mermaid
+   graph TD;
+   Dev1-->Kerubin;
+   Kerubin-->Dev2;
+   Dev2-->Community;
+   ```
 
-## 📝 **Licença**
-Este projeto está sob a licença Apache 2.0. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+--- 
