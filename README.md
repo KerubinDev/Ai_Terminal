@@ -1,6 +1,6 @@
 # 🌌 **Kerubin - Intelligent Virtual Assistant**
 
-![Português](README_pt_br.md)
+[Português](README_pt_br.md)
 
 > 💬 **"Transforming common interactions into extraordinary experiences!"**
 
